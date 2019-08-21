@@ -18,7 +18,7 @@ function excuse($start, $end){
     $addVal= passByValue($addVal, 5, 1, "IT");
     $addVal= passByValue($addVal, 3, 1, "Linio");
    
-    $returnString.= '<table border="1" style="margin-left:300px; padding:"><tr><td>'.$addVal . "</tr></td></table><br>";
+    $returnString.= '<table style="border:1px solid #333; padding:4px;margin-left:300px; padding:"><tr><td>'.$addVal . "</tr></td></table><br>";
   }
   return $returnString;
 }
