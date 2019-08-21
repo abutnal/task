@@ -8,8 +8,7 @@ function passByValue($num, $divisibleByA, $divisibleByB, $ReturnValueIfTrue){
   } catch(Exception $e){ 
     return $num;
   }
-}
-;
+};
 function excuse($start, $end){
   $returnString = "";
   for ($i = $start;$i <= $end;$i++) {
@@ -23,4 +22,3 @@ function excuse($start, $end){
   return $returnString;
 }
 echo excuse(1, 100);
-?>
